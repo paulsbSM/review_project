@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/paulsbSM/review_project#readme",
   "dependencies": {
-    "chalk": "^5.6.2"
+    "chalk": "^5.6.2",
+    "express": "^5.2.1"
   }
 }

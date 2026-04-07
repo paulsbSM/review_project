@@ -1,4 +1,11 @@
-import chalk from 'chalk';
-   console.log(chalk.green('Hello from Node.js!'));
-   console.log(chalk.blue('This text is blue.'));
-   console.log(chalk.red.bold('This text is red and bold.'));
+import express from 'express';
+
+   const app = express();
+
+   app.get('/', (req, res) => {
+     res.send('<h1>Hello from Express!</h1>');
+   });
+
+   app.listen(3000, () => {
+     console.log('Server running at http://localhost:3000');
+   });
